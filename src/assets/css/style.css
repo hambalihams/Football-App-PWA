@@ -1,0 +1,68 @@
+.card-image img {
+  width: 80%;
+}
+.brand-logo {
+  font-weight: 700;
+}
+#top-nav a {
+  font-weight: 600;
+}
+footer {
+  padding: 15px 0;
+  font-size: 12px;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+h5,
+h6 {
+  font-weight: 600;
+}
+.matches-content img {
+  width: 45px;
+}
+.matches-content .home-team img,
+.matches-content .away-team img {
+  width: 60px;
+  height: 70px;
+}
+.team-name,
+.matchday-text, .saved-text {
+  font-weight: 600;
+}
+.card-panel {
+  position: relative;
+}
+.saved-but, .delete-but {
+  font-size: 26px;
+  z-index: 10;
+  padding: 4px;
+  border-radius: 180px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  bottom: -16px;
+  cursor: pointer;
+}
+#modal-standing img {
+  width: 30px;
+  height: 30px;
+}
+.cell-logo {
+  width: 30px;
+}
+.stand-but, .sced-but {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.saved-text {
+  display: none;
+}
